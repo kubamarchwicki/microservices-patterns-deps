@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  elasticsearch:
+    image: elasticsearch:5
+  logstash:
+    image: logstash:5
+  kibana:
+    image: kibana:5
+  zipkin:
+    image: openzipkin/zipkin:latest
+  keycloak:
+    image: jboss/keycloak:latest
+  rabbitmq:
+    image: rabbitmq:management
