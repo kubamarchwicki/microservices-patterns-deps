@@ -1,3 +1,3 @@
-This folder contains aggregated poms and Dockerfiles from the whole workshop. These are not used _per se_ during the exercises but can be used to pre-download and cache required libraries and containers upfront and avoid stretching workshop internet connection to the maximum.
+This folder contains aggregated poms and Dockerfiles from the various workshops. These are not used _per se_ during the exercises but can be used to pre-download and cache required libraries and containers upfront and avoid stretching workshop internet connection to the maximum.
 
 Run `mvn dependency:resolve`, `mvn dependency:resolve-plugins` and `docker-compose pull` to download everything that's required for the workshop
