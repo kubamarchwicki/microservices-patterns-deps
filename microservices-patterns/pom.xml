@@ -8,8 +8,8 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
+    <version.spring-cloud-dependencies>Camden.SR6</version.spring-cloud-dependencies>
     <version.spring-boot>1.4.1.RELEASE</version.spring-boot>
-    <version.spring-cloud-contract>1.0.1.RELEASE</version.spring-cloud-contract>
     <version.arquillian_core>1.1.11.Final</version.arquillian_core>
     <version.arquillian_pact>1.0.0.Alpha2</version.arquillian_pact>
   </properties>
@@ -30,13 +30,6 @@
         <scope>import</scope>
       </dependency>
       <dependency>
-        <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-contract-dependencies</artifactId>
-        <version>${version.spring-cloud-contract}</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-      <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
         <version>${version.spring-boot}</version>
@@ -46,7 +39,7 @@
       <dependency>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-dependencies</artifactId>
-        <version>Brixton.RELEASE</version>
+        <version>${version.spring-cloud-dependencies}</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -245,7 +238,6 @@
       <plugin>
         <groupId>org.springframework.cloud</groupId>
         <artifactId>spring-cloud-contract-maven-plugin</artifactId>
-        <version>${version.spring-cloud-contract}</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
