@@ -22,7 +22,7 @@
     <version.wildfly-dist>10.1.0.Final</version.wildfly-dist>
     <version.spring-cloud-dependencies>Camden.SR6</version.spring-cloud-dependencies>
     <version.resteasy>3.0.16.Final</version.resteasy>
-    <version.infinispan>8.1.0.Final</version.infinispan>
+    <version.infinispan>10.0.0.Final</version.infinispan>
     <version.arquillian_core>1.1.11.Final</version.arquillian_core>
     <version.arquillian_pact>1.0.0.Alpha2</version.arquillian_pact>
   </properties>
