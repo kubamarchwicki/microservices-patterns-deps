@@ -19,7 +19,7 @@
     <version.springboot>2.1.8.RELEASE</version.springboot>
     <version.swagger>2.9.2</version.swagger>
     <version.lombok>1.18.10</version.lombok>
-    <version.junit>4.12</version.junit>
+    <version.junit>4.13.1</version.junit>
     <version.mockito>2.28.2</version.mockito>
   </properties>
 
@@ -139,7 +139,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
