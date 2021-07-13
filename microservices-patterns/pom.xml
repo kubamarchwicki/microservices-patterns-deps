@@ -11,7 +11,7 @@
     <!-- <version.zipkin>1.17.1</version.zipkin> -->
     <version.spring-boot>1.5.3.RELEASE</version.spring-boot>
     <version.failsafe>0.9.5</version.failsafe>
-    <version.keycloak>3.1.0.Final</version.keycloak>
+    <version.keycloak>14.0.0</version.keycloak>
     
     <version.zipkin-brave>4.3.3</version.zipkin-brave>
     <version.sparkjava>2.5.5</version.sparkjava>
